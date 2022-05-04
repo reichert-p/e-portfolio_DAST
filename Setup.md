@@ -46,17 +46,6 @@ When activated, they automatically get run in the active scan. The two example s
 - zap.py is correctly customized
 - the application to be tested is running
 
-You should be now able to successfully execute zap.py and repoduce the results of my [report](https://github.tools.sap/I538925/T3_2000-Philipp/blob/main/Praxisbericht.pdf).
+You should be now able to successfully execute zap.py and produce results in a report.
 
-Here is the link [link](https://sap-my.sharepoint.com/:f:/p/philipp_reichert/EnSvSkMtNR9PoOyVqqyEF7AB1I_jvuIDXXcmOmbXouqP_w?e=oQsRBJ ) to the ZAP sessions folder with the ZAP sessions.
 
-## BURP Suite Professional automated DAST setup
-
-1. Download Burp Suite Professional [here](https://portswigger.net/burp/documentation/desktop/getting-started)
-2. get and activate your license
-3. get [Burp Rest API](https://github.com/vmware/burp-rest-api) and follow their setup instructions
-4. set up burp.py role model of zap.py, the only difference is that in line 10 the base of the URL instead of a regex is required
-5. in function startBurp(), the command for starting Burp rest api can be defined to automatically start it
-6. to use and set up Burp OpenAPI parser, go [here](https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c)
-
-For further questions you can contact me at philipp.reichert@sap.com
