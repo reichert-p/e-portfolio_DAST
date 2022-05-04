@@ -35,8 +35,7 @@ To include the provided scan rules, go on the scan rule icon (screenshot above) 
 ### Active Rules scripts
 
 In zap UI, active rules script get maintained here: ![Screenshot](Pictures/ActiveRulesScripts.PNG)
-When activated, they automatically get run in the active scan. The two example scripts in ZAP/scripts are the ones described in my [report](https://github.tools.sap/I538925/T3_2000-Philipp/blob/main/Praxisbericht.pdf)
- in Section 3.2.1 *Scripting in ZAP*.
+When activated, they automatically get run in the active scan. The two example scripts in ZAP/scripts are the ones described in this [report](https://github.tools.sap/I538925/T3_2000-Philipp/blob/main/Praxisbericht.pdf)  in Section 3.2.1 *Scripting in ZAP*.
 
  The scanNode() function gets run on every endopoint to be scanned, the scan() function on every *recognized* parameter.
 
